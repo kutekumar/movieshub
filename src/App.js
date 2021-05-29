@@ -7,10 +7,11 @@ import Movies from "./Pages/Movies/Movies";
 import Search from "./Pages/Search/Search";
 import Series from "./Pages/Series/Series";
 import Trending from "./Pages/Trending/Trending";
+import React from "react";
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <div className='app'>
         <Container>
@@ -23,7 +24,7 @@ function App() {
         </Container>
       </div>
       <SimpleBottomNavigation />
-    </>
+    </div>
   );
 }
 
