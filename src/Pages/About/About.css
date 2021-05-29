@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.icons {
+  font-size: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+}

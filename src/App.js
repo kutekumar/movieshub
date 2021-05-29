@@ -1,3 +1,4 @@
+import React from "react";
 import { Container } from "@material-ui/core";
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
@@ -7,7 +8,7 @@ import Movies from "./Pages/Movies/Movies";
 import Search from "./Pages/Search/Search";
 import Series from "./Pages/Series/Series";
 import Trending from "./Pages/Trending/Trending";
-import React from "react";
+import About from "./Pages/About/About";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/movies' component={Movies} />
             <Route path='/series' component={Series} />
             <Route path='/search' component={Search} />
+            <Route path='/about' component={About} />
           </Switch>
         </Container>
       </div>
